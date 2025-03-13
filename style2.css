@@ -1,0 +1,478 @@
+body{
+    /* padding: 7%;
+    margin-left: 0%;
+    margin-right: 0%; */
+    margin: 20px;
+    background-color: rgba(243, 234, 222, 0.815);
+ 
+ 
+ }
+ @font-face {
+    font-family:carra ;
+    src: url(MacondoSwashCaps-Regular.ttf);
+ }
+ .carra{
+    font-family: carra;
+    margin-bottom: 3cm;
+ }
+ 
+ 
+ 
+ .home_decor{
+    padding-left: 50px;
+    margin: 5rem;
+    background-color: white;
+    width: auto;
+
+    
+    
+ }
+
+ .container {
+    perspective: 2rem;
+    overflow: hidden;
+    padding-right: 100px;
+    padding-bottom: 0;
+    height: auto;
+    
+ }
+
+
+.corner-decor{
+    width: 30rem;
+    height: 400px;
+    background-color: rgb(44, 41, 41);
+    border-radius: 20%;
+    position: relative;
+    top: -95px;
+    right: -85%; 
+    transform: rotate(320deg); 
+    z-index: -1;
+}
+
+
+
+
+#img_home {  
+    position: relative;
+    float: right;
+    z-index: 1;
+    left: -14rem;
+    bottom: 3rem;
+    border-radius: 60px;
+    
+}
+
+.menu {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    width: 60%;
+    margin-top: 60px;
+    
+}
+
+
+.brand {
+    margin-right: auto;
+    
+ }
+
+ 
+ 
+.nav_list {
+    display: flex;
+    justify-content: center;
+
+    
+    
+    
+}
+
+.nav_list li{
+    list-style: none;
+}
+
+.nav_list li a{
+    text-decoration: none;
+    color: black;
+    margin-left: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    
+
+    
+}
+
+.icons{
+   z-index: 2;
+   position: relative;
+   left: 40rem;
+}
+
+
+
+
+
+
+ .details{
+    display: flex;
+    /* padding: 20% */
+ }
+ #home{
+    border: dotted 2px;
+    border-radius: 5px;
+ }
+ 
+ 
+ .par{
+    text-align: center;
+ }
+ 
+ 
+ #button{
+    height: 1.7cm;
+    border-radius: 35px;
+    width: 37%;
+    color: white;
+    background-color: rgb(83, 82, 82);
+    border: none;
+    cursor: pointer;
+ }
+ 
+ 
+ .watch_now{
+    display: flex;
+    cursor: pointer;
+   
+ }
+ .form_first{
+    font-size: x-large;
+    width: auto;
+    z-index: 2;
+    position: relative;
+    bottom: 10rem;
+    padding-left: 70px;
+ }
+ 
+ 
+ #youtube{
+    margin-top: 0.5cm;
+    padding-left: 0.5cm;
+ 
+ 
+ }
+ #watch_parg{
+    margin-top: 20px ;
+    padding-left: 0.5cm;
+    text-decoration: none;
+    color: black;
+   
+ }
+ #watch_parg:hover{
+   color: blue;
+   text-decoration: underline;
+ }
+ .numbers{
+    display: flex;
+ 
+ 
+ }
+ .num{
+    display: block;
+    margin-top: 10px;
+ }
+ .num_plus{
+    display: block;
+    margin-top: 10px;
+    margin-left: 1.5cm;
+ }
+ .num_per{
+    display: block;
+    margin-top: 10px;
+    margin-left: 1.5cm;
+ }
+ #img_home{
+    height: 15cm;
+    margin-left: 1cm;
+ }
+ .words{
+    display: flex;
+    padding-left: 100px;
+    margin-top: 2cm;
+    /* border: solid black;  */
+    font-size: x-large;
+ }
+ #ikea{
+    color: grey;
+    font-family: "Chango";
+ }
+ 
+ 
+ #dip{
+    margin-left: 04cm;
+    color: grey;
+ }
+ #des{
+    margin-left: 03cm;
+    color: grey;
+    font-family: "Comfortaa";
+ }
+ #ben{
+    margin-left: 03cm;
+    color: grey;
+    font-family: "Mitr";
+   
+ }
+ #wes{
+    margin-left: 03cm;
+    color: grey;
+    font-family: "Libre Caslon Display";
+ }
+ 
+ 
+ .best_seller{
+    display: flex;
+    padding: 20px;
+    margin-top: 3cm;
+    /* border: solid 1px; */
+ }
+ #new_15{
+    color: red;
+    position: relative;
+    overflow: visible;
+    top: 10%;
+ 
+ 
+ }
+
+ #new_151{
+    color: red;
+    position: absolute;
+    overflow: visible;
+    top: 3px;
+    left: 0;
+ 
+ }
+
+ #new1 {
+    position: absolute;
+    right: 1rem;
+ }
+
+
+ #new{
+    margin-left: 3.5cm;
+    position: relative;
+    overflow: visible;
+    top: 10%;
+    margin-left: 3.6cm;
+   
+ }
+ .icon_play{
+    margin-left: 79%;
+    margin-top: 0.5cm;
+ }
+ #flip{
+    color: rgb(172, 169, 169);
+ }
+ .pictures{
+    display: flex;
+    padding: 5rem;
+    
+    /* border: solid 1px; */
+  
+ }
+ .white_vase{
+    font-size: larger;
+    position: relative;
+  
+ }
+
+ .white_vase #new_15 {
+    position: absolute;
+    left: 0rem;
+    top: 1px;
+
+ }
+
+ .white_vase #new {
+    position: absolute;
+    left: 3rem;
+    top: 1px;
+
+ }
+
+
+
+
+ .black_vase{
+    display: block;
+    margin-left: 2cm;
+    font-size: larger;
+   
+ }
+ .cer_vase{
+    display: block;
+    margin-left: 2cm;
+    font-size: larger;
+   
+ }
+ .black_cer{
+    display: block;
+    margin-left: 2cm;
+    font-size: larger;
+    position: relative;
+ }
+ .space{
+    display: block;
+    margin-top: 5cm;
+    padding: 20px;
+    text-align: center;
+    font-size: larger;
+ }
+ 
+ 
+ .trendy_decor{
+    display: flex;
+    margin-top: 3cm;
+    padding: 20px;
+ 
+ 
+ }
+ #decor_18{
+    height: 14cm;
+ }
+ .promos{
+    margin-left: 2cm;
+    margin-top: 1cm;
+    font-size: x-large;
+ }
+ #shop_now{
+    margin-top: 0.5cm;
+    height: 1.7cm;
+    width: 4cm;
+    border-radius: 35px;
+    border: solid 2px;
+    background-color: white;
+    cursor: pointer;
+ }
+ .stylish{
+    display: flex;
+    padding: 20px;
+    margin-top: 4cm;
+    font-size: x-large;
+ }
+ #interior_img{
+    height: 14cm;
+    margin-left: 2cm;
+ 
+ 
+ }
+ .stylish_pieces{
+    margin-top: 1cm;
+ }
+ 
+ 
+ #button_shop{
+    margin-top: 0.5cm;
+    height: 1.7cm;
+    width: 4cm;
+    border-radius: 35px;
+    border: solid 2px;
+    background-color: white;
+    cursor: pointer;
+ }
+ .offers{
+    padding: 20px;
+    margin-top: 4cm;
+    text-align: center;
+    font-size: larger;
+ }
+ .solid_piece{
+    font-size: larger;
+  
+ }
+ #sol_piece{
+    height: 5.5cm;
+    margin-top: 0.4cm;
+ }
+ .guarantee_days, .cards_gifts, .track_order{
+    font-size: larger;
+    margin-left: 2cm;
+ }
+ .benefits{
+    display: flex;
+    margin-top: 4cm;
+    padding: 20px;
+ }
+ .reviews{
+    padding: 20px;
+    margin-top: 2cm;
+    text-align: center;
+    font-size: larger;
+ }
+ 
+ 
+ .revs_test{
+    display: flex;
+    padding: 20px;
+    margin-top: 2cm;
+ }
+ .reviews{
+    margin-left: 3cm;
+    font-size: larger;
+ }
+ .testimonials{
+    display: flex;
+ }
+ #img_testimonial{
+    height: 2cm;
+ }
+ #review_image{
+    height: 14cm;
+ }
+ #arther{
+    margin-left: 1cm;
+ }
+ .arrow_brac{
+    display: flex;
+ }
+ #arrow{
+    margin-left: 13cm;
+    margin-top: 0.5cm;
+   
+ }
+ .overview{
+    margin-top: 3cm;
+    display: flex;
+    padding: 20px;
+    font-size: larger;
+ }
+ .cus_service{
+    /* display: block; */
+ 
+ 
+ }
+ #support{
+    display: block;
+ }
+ 
+ 
+ .company, .social_media, .profile{
+    margin-left: 5cm;
+ }
+ .footer{
+    display: flex;
+    margin-top: 2cm;
+    padding: 20px;
+ }
+ .company_com{
+    margin-left: 24cm;
+ }
+ 
+ 
+ 
